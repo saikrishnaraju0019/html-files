@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        .De::selection {
+            background-color: aquamarine;
+        }
+
+        .Hobbies:hover {
+            background-color: aquamarine;
+        }
+
+
+        .skills:hover {
+            background-color: yellow;
+        }
+
+        .techskills:hover {
+            background-color: yellow;
+        }
+
+        li::marker {
+            color: deeppink;
+        }
+
+        li::first-letter {
+            color: orangered;
+        }
+
+        p::selection {
+            background-color: red;
+        }
+
+        blockquote::after {
+            content: "SaikrishnaUpputuri";
+            float: right;
+        }
+
+        li {
+            list-style: armenian;
+        }
+
+        .Hobbies {
+            height: 25vh;
+            width: 50vw;
+            border: 3px solid black;
+            overflow-y: scroll;
+            box-shadow: 5px 5px grey;
+            font-weight: 100;
+            display: inline-block;
+            background-color: gainsboro;
+
+        }
+
+
+
+
+        .card-section {
+            height: 30vh;
+            width: 100vw;
+            position: relative;
+        }
+
+        .techskills {
+            height: 25vh;
+            width: 40%;
+            border: 3px solid black;
+            overflow-y: scroll;
+            box-shadow: 5px 5px grey;
+            font-weight: 100;
+            position: absolute;
+            right: 5%;
+            top: 5%;
+            background-color: gainsboro;
+
+        }
+
+
+        .skills {
+            height: 25vh;
+            width: 40%;
+            border: 3px solid black;
+            overflow-y: scroll;
+            box-shadow: 5px 5px grey;
+            font-weight: 100;
+            position: absolute;
+            left: 5%;
+            top: 5%;
+            background-color: gainsboro;
+
+        }
+
+        .carrer-objective {
+            height: 15vh;
+            width: 78%;
+            border: 3px double black;
+            background-color: grey;
+            padding: 5px;
+        }
+
+        .carrer-objective:hover {
+            background-color: aqua;
+        }
+
+
+        .name {
+            text-align: center;
+            color: blue;
+
+        }
+
+        img {
+            float: right;
+            border-radius: 60px;
+            position: absolute;
+            top: 0%;
+            right: 0%;
+        }
+
+        .table {
+            width: 100vw;
+        }
+
+        .table:hover {
+            background-color: lightyellow;
+            color: royalblue;
+        }
+
+
+
+
+        table,
+        td,
+        tr,
+        th {
+            text-align: center;
+            border: 2px solid black;
+            border-collapse: collapse;
+            height: 20px;
+        }
+
+        td {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <nav>
+            <a href="#Name"><button>Name</button></a>
+            <a href="#Carrer-Obja"><button>objective</button></a>
+            <a href="#Educationtable"><button>Education</button></a>
+            <a href="#Skills"><button>Skills</button></a>
+            <a href="#Hobbies"><button>Hobbies</button></a>
+            <a href="#Pe"><button>Info</button></a>
+            <a href="#Dec"><button>Declaration</button></a>
+        </nav>
+    </div>
+    <div class="resume task">
+        <section id="Name">
+            <h2 class="name">
+                Saikrishna Raju Upputuri
+            </h2>
+            <img src="myimage.jpg" height="200px" width="300px">
+            <hr>
+        </section>
+
+        <section id="Carrer-Obja">
+            <div class="carrer-objective">
+                <p>
+                    <b><u>
+                            <legend>Carrer Objective:-
+                        </u></b></legend>
+                <p>Detail-oriented, analytical, and self-driven programmer with extensive experience building
+                    user-facing
+                    applications. Efficient and knowledgeable coder with skills in HTML, CSS, PHP, and JavaScript
+                    programming languages. Coordinated and collaborative team player with attention to detail, graphic
+                    design skills, and ability to contribute to code base improvement initiatives and UX improvement
+                    projects.</p>
+
+                </p>
+            </div>
+        </section>
+
+
+        <hr>
+
+        <section id="Educationtable">
+            <h4>
+                Educational Qualifications:-
+            </h4>
+            <table class="table">
+                <tr>
+                    <th>Qualification</th>
+                    <th>Name of Institute</th>
+                    <th>university/board</th>
+                    <th> Year of pass out</th>
+                    <th> percentage</th>
+                </tr>
+                <tr>
+                    <td>Btech(CSE)</td>
+                    <td>Brilliant Institute of Engineering & Technology</td>
+                    <td>Jawaharlal Nehru Technological University Hyderbad</td>
+                    <td>
+                        <center>(2018-2022)</center>
+                    </td>
+                    <td>6.47 CGPA</td>
+                </tr>
+                <tr>
+                    <td>Intermediate(MPC)</td>
+                    <td>Sri Chaitanya Junior Kalasala</td>
+                    <td>Intermediate board Telangana</td>
+                    <td>
+                        <center>(2016-2018)</center>
+                    </td>
+                    <td>
+                        <center>65%</center>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10th(SSC)</td>
+                    <td>Sri Vagdevi Talent School</td>
+                    <td>Secondary Schooling board Telangana</td>
+                    <td>
+                        <center>(2015-2016)</center>
+                    </td>
+                    <td>
+                        <center>7.8CGPA</center>
+                    </td>
+                </tr>
+
+            </table>
+        </section>
+
+
+
+
+
+
+        <hr>
+
+        <section id="Skills">
+            <div class="card-section">
+                <div class="techskills">
+                    <center>
+                        <h4>
+                            Technical Skills :-
+                        </h4>
+                    </center>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Bootstraph</li>
+                        <li>Basics Of Python</li>
+                        <li>SQL</li>
+                        <li>Game testing</li>
+                        <li>Mannual testing</li>
+
+                    </ul>
+                </div>
+
+                <div class="skills">
+                    <center>
+                        <h4>
+                            Non Technical Skills :-
+                        </h4>
+                    </center>
+                    <ul>
+                        <li>Qgis Tool</li>
+                        <li>Atlas Tool</li>
+                        <li>Network Digitising</li>
+                        <li>Tata Power Tool</li>
+                        <li>Here Map creater</li>
+                        <li>Designing of DT'S</li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+
+
+        <section id="Hobbies">
+            <div class="Hobbies">
+                <center>
+                    <h4>
+                        Hobbies :-
+                    </h4>
+                </center>
+                <ul>
+                    <li> Online Gamming</li>
+                    <li>Cricket</li>
+                    <li>Driving</li>
+                    <li>Debugging</li>
+                    <li>Listening to Music</li>
+                    <li>Watching Movies</li>
+                    <li>Cycling</li>
+
+                </ul>
+            </div>
+        </section>
+
+
+        <hr>
+        <section id="Pe">
+            <h4>
+                <u>Personal Details:-</u>
+            </h4>
+            <li> Father Name:- SrinivasRao</li>
+            <li>D.O.B:- 08/11/2000</li>
+            <li>Nationality:- Indian</li>
+            <li>Languages Known:- Telugu,Hindi,English</li>
+            <li>Relegion:- Hindu</li>
+
+        </section>
+        <hr>
+
+        <section id="Dec">
+            <h4>Declaration:-</h4>
+            <fieldset>
+                <center>
+                    <blockquote class="De">The above Given information provided was True and Genuine to the best of my
+                        knowledge.
+                    </blockquote>
+                </center>
+            </fieldset>
+
+            <a href="resumetask.html" download><button>Download</button></a>
+
+            <a href="./abouttasks.html"><button>Back</button></a>
+        </section>
+
+
+
+    </div>
+</body>
+
+</html>
