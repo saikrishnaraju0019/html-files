@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button:hover {
+            background-color: aqua;
+            color: black;
+            font-weight: bolder;
+
+        }
+
+        .zero {
+            width: 130px;
+        }
+
+        .card {
+            background-color: coral;
+            height: 70vh;
+            width: 30vw;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        :root {
+            --b: grey;
+            --t: white;
+            --h: 40px;
+            --w: 40px;
+            --br: 10px;
+            --m: 20px;
+        }
+
+        button {
+            background-color: var(--b);
+            color: var(--t);
+            height: var(--h);
+            width: var(--w);
+            border-radius: var(--br);
+            margin: var(--m);
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div>
+            <h1>
+                Calculator using hover
+            </h1>
+            <div class="card">
+                <button>AC</button>
+                <button>/</button>
+                <button>%</button>
+                <button>*</button>
+                <pre></pre>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>X</button>
+                <pre></pre>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>-</button>
+                <pre></pre>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>+</button>
+                <pre></pre>
+                <button class="zero">0</button>
+                <button>.</button>
+                <button>=</button>
+
+            </div>
+    </center>
+    </div>
+</body>
+
+</html>
